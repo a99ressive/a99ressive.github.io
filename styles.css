@@ -26,9 +26,8 @@ header {
 	position: fixed;
 	top: 0%;
 	width: 100%;
-	-webkit-box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.3);
-	overflow: hidden;
+	-webkit-box-shadow: 0 0px 30px 100px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0px 30px rgba(0, 0, 0, 0.3);
 }
 .block {
 	padding: 10px;
@@ -69,7 +68,18 @@ header {
 	height: 500px;
 	/*border-bottom: solid 1px #FFF212;*/
 }
-
+.container-2 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin: 10px 10px 10px 10px;
+	height: 500px;
+	/*border-bottom: solid 1px #FFF212;*/
+}
+.container-header {
+	text-align: center;
+}
 h1 {
 	font-size: 3rem;
 	font-weight: bold;
@@ -77,4 +87,8 @@ h1 {
 }
 span {
 	color:  #FFF212;
+}
+
+.trainer-img {
+	width: 300px;
 }
